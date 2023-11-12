@@ -5,7 +5,7 @@ set -eu
 [[ $VERBOSE =~ on|On|Yes|yes|true|True ]] && set -x
 
 BALENA_API_URL=${BALENA_API_URL:-balena-cloud.com}
-OS_VERSION=${OS_VERSION:-2.95.12%2brev1}
+OS_VERSION=${OS_VERSION:-latest}
 DRY_RUN=${DRY_RUN:-true}
 CLOBBER=${CLOBBER:-false}
 
